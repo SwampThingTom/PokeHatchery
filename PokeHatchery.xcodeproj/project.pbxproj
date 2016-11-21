@@ -12,6 +12,9 @@
 		E276987D1DDBEA5A005947DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E276987B1DDBEA5A005947DB /* MainMenu.xib */; };
 		E27698881DDBEA5A005947DB /* PokeHatcheryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27698871DDBEA5A005947DB /* PokeHatcheryTests.swift */; };
 		E27698931DDBEA5A005947DB /* PokeHatcheryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27698921DDBEA5A005947DB /* PokeHatcheryUITests.swift */; };
+		E27698A21DDBED91005947DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27698A01DDBED91005947DB /* MainViewController.swift */; };
+		E27698A31DDBED91005947DB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27698A11DDBED91005947DB /* MainViewController.xib */; };
+		E27698A51DDBF6FA005947DB /* PokémonEggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27698A41DDBF6FA005947DB /* PokémonEggs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		E276988E1DDBEA5A005947DB /* PokeHatcheryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeHatcheryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27698921DDBEA5A005947DB /* PokeHatcheryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeHatcheryUITests.swift; sourceTree = "<group>"; };
 		E27698941DDBEA5A005947DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27698A01DDBED91005947DB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E27698A11DDBED91005947DB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E27698A41DDBF6FA005947DB /* PokémonEggs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokémonEggs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				E27698771DDBEA5A005947DB /* AppDelegate.swift */,
+				E27698A01DDBED91005947DB /* MainViewController.swift */,
+				E27698A11DDBED91005947DB /* MainViewController.xib */,
+				E27698A41DDBF6FA005947DB /* PokémonEggs.swift */,
 				E27698791DDBEA5A005947DB /* Assets.xcassets */,
 				E276987B1DDBEA5A005947DB /* MainMenu.xib */,
 				E276987E1DDBEA5A005947DB /* Info.plist */,
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E276987A1DDBEA5A005947DB /* Assets.xcassets in Resources */,
+				E27698A31DDBED91005947DB /* MainViewController.xib in Resources */,
 				E276987D1DDBEA5A005947DB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27698A51DDBF6FA005947DB /* PokémonEggs.swift in Sources */,
 				E27698781DDBEA5A005947DB /* AppDelegate.swift in Sources */,
+				E27698A21DDBED91005947DB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

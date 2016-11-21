@@ -12,16 +12,15 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-
+    var mainViewController: MainViewController?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        mainViewController = MainViewController(nibName: "MainViewController", bundle: nil)
+        window.contentView!.addSubview((mainViewController?.view)!)
+        mainViewController?.view.frame = window.contentView!.bounds
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
     }
-
-
 }
 
